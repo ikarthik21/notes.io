@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: rgb(71, 175, 255);
+  }
+
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  li {
+    background-color: white;
+    list-style: none;
+    margin: 10px 10px;
+    border-radius: 8px;
+    padding: 12px 24px;
+    height: 200px;
+    width: 150px;
+    font-size: 15px;
+    word-wrap: break-word;
+  }
+
+  #txtfill {
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 25px;
+    outline: none;
+  }
+
+  #add-btn {
+    padding: 10px 23px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #rem-btn {
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #upt-btn {
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #btn-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    margin: 5px 10px;
+  }
+  #taskbox {
+    margin-top: 20px;
+  }
+  i {
+    float: right;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  #taskbox ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
